@@ -16,7 +16,6 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 1rem;
 }
 
 .company-logo {
@@ -40,11 +39,11 @@
 }
 
 .job-description-header {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   font-weight: bold;
   color: rgba(22, 22, 22, 0.897);
   cursor: pointer;
-  margin-top: 1.8rem;
+  margin-top: 1rem;
 }
 
 .job-description-text {
@@ -60,7 +59,7 @@
 }
 
 .job-title {
-  font-size: 1.2rem;
+  font-size: 1rem;
   margin-left: 1rem;
   font-weight: 700;
 }
@@ -90,14 +89,19 @@ hr {
 }
 
 
-@media screen and (max-width: 450px){
+@media screen and (max-width: 500px){
   .job-date{
-    font-size: .8rem;
+    font-size: 0.6rem;
     align-self: center;
     margin: 0;
+    margin-top: 0.2rem;
   }
 
   .company-name{
-    font-size: 0.7rem;
+    font-size: 0.88rem;
+  }
+
+  .job-title {
+    margin-left: 0rem;
   }
 }
