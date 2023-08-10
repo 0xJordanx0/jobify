@@ -176,3 +176,16 @@ img {
     transition: var(--transition);
   }  
 }
+
+
+@media screen and (max-width: 375px) {
+  .btn {
+    cursor: pointer;
+    width: fit-content;
+    font-size: 0.6rem;
+    padding: 0.5rem 0.5rem;
+    border-radius: 1.5rem;
+    font-weight: var(--font-wt-semibold);
+    transition: var(--transition);
+  }  
+}
