@@ -1,4 +1,5 @@
 import "bootstrap/dist/css/bootstrap.min.css";
+import classes from "./PostJobForm.module.css";
 import createJob from "../hooks/createJob";
 import { useState } from "react";
 
@@ -58,15 +59,7 @@ const PostJobForm = () => {
 
   return (
     <div className="new-div" style={{ with: "100%" }}>
-      <h1
-        style={{
-          fontSize: "3rem",
-          fontWeight: "bold",
-          color: "#486284",
-          marginBottom: "3rem",
-          marginTop: "8rem",
-          textAlign: "center",
-        }}
+      <h1 className={classes["job-posting-title"]}
       >
         Job Posting 💼
       </h1>
