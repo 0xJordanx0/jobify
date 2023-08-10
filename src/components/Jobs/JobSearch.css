@@ -1,11 +1,18 @@
-.div {
+.filter-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.sort-items {
   display: flex;
   gap: 1rem;
-  align-items: center;
 }
-.search-bar {
+
+.sort-items select{
   width: 100%;
 }
+
 input[type="text"] {
   width: 100%;
   padding: 10px;
@@ -36,9 +43,6 @@ button {
 button:hover {
   background-color: #0056b3;
 }
-#date-filter {
-  width: 100px;
-}
 
 @media screen and (max-width: 612px) {
   .div {
@@ -50,3 +54,18 @@ button:hover {
     width: 100%;
   }
 }
+
+@media screen and (min-width: 768px) {
+  .filter-container{
+    flex-direction: row;
+  }
+
+  .search-bar{
+    flex-grow: 1;
+  }
+
+  .sort-items select{
+    flex-grow: 2
+  }
+}
+

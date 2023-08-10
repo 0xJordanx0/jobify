@@ -58,6 +58,7 @@ const Jobs = () => {
       return jobs.filter((job) => job.type === jobType);
     }
   };
+
   const filteredByDate = filterJobsByDate(jobsData);
   const filteredByCountry = filterJobsByCountry(filteredByDate);
   const filteredByJobTitle = filterJobsByTitle(filteredByCountry);
@@ -70,6 +71,7 @@ const Jobs = () => {
     marginBottom: "3rem",
     marginTop: "3rem",
   };
+  
   return (
     <section style={{ marginTop: "2rem" }}>
       <h2 style={headingStyle}>Recent Jobs</h2>

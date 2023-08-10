@@ -17,4 +17,16 @@
     align-items: center;
     padding: 5rem 0;
   }
+  
+}
+
+
+@media screen and (max-width: 768px) {
+  .intro{
+    text-align: center;
+  }
+
+  .intro-cta{
+    justify-content: center;
+  }
 }

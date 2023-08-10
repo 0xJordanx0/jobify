@@ -7,9 +7,7 @@ const HomePage = () => {
     <main className={`container`}>
       <Hero />
       <Testimonials />
-      <Jobs
-      // demoJobs={demoJobs}
-      />
+      <Jobs  />
     </main>
   );
 };

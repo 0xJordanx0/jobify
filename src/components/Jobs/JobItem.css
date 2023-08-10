@@ -15,8 +15,8 @@
 .company-info {
   display: flex;
   align-items: center;
-  justify-content: flex-start;
-  margin-bottom: 15px;
+  justify-content: space-between;
+  gap: 1rem;
 }
 
 .company-logo {
@@ -74,13 +74,10 @@
 }
 
 .job-date {
-  flex-grow: 1;
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
   color: #8d8c8c;
   border-radius: 4px;
-  padding: 5px 10px;
+  align-self: center;
+  margin: 0;
 }
 hr {
   margin: 20px 0; /* Adjust the margin as needed to control the space above and below the line */
@@ -89,4 +86,18 @@ hr {
 }
 .company-logo-name {
   display: flex;
+  align-items: center;
+}
+
+
+@media screen and (max-width: 450px){
+  .job-date{
+    font-size: .8rem;
+    align-self: center;
+    margin: 0;
+  }
+
+  .company-name{
+    font-size: 0.7rem;
+  }
 }
