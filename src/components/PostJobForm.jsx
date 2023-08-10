@@ -175,8 +175,10 @@ const PostJobForm = () => {
             </select>
           </div>
           <div className="form-file custom-file">
+            <label style={{display: "block", marginBottom: "0.3rem"}} htmlFor="image">
+                Choose image(s):
+            </label>
             <input
-              style={{ width: "390px" }}
               type="file"
               className="form-file-input"
               id="logo"
@@ -184,12 +186,6 @@ const PostJobForm = () => {
               value={formData.logo}
               onChange={handleChange}
             />
-            <label className="form-file-label" htmlFor="image">
-              <span className="form-file-text custom-file-label">
-                Choose image(s)...
-              </span>
-              <span className="form-file-button">Browse</span>
-            </label>
           </div>
 
           <div className="mb-3 mt-4 ">

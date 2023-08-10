@@ -83,6 +83,16 @@ html {
   .container {
     width: var(--container-lg);
   }
+
+  .btn {
+    cursor: pointer;
+    width: fit-content;
+    font-size: 0.9rem;
+    padding: 0.6rem 1.4rem !important;
+    border-radius: 1.5rem;
+    font-weight: var(--font-wt-semibold);
+    transition: var(--transition);
+  }
 }
 
 main {
@@ -111,6 +121,25 @@ img {
   width: 140px;
   margin-left: 1rem;
 }
+
+.custom-button {
+  width: 100%;
+  padding: 12px 0rem;
+  font-weight: 600;
+  margin-top: 1rem;
+  background-color: #486284;
+  border-radius: 12px;
+  color: rgb(236, 233, 233);
+}
+
+.custom-button:hover {
+  color: rgb(236, 233, 233);
+  height: 100%;
+  background-color: #415064;
+  border-radius: 12px;
+}
+
+
 @media screen and (max-width: 1024px) {
   h1 {
     margin-top: 3rem;
@@ -129,26 +158,21 @@ img {
   .job-pay {
     margin-bottom: 5px;
   }
-}
-.custom-button {
-  width: 100%;
-  padding: 12px 0rem;
-  font-weight: 600;
-  margin-top: 1rem;
-  background-color: #486284;
-  border-radius: 12px;
-  color: rgb(236, 233, 233);
-}
-.custom-button:hover {
-  color: rgb(236, 233, 233);
-
-  height: 100%;
-  background-color: #415064;
-  border-radius: 12px;
-}
-@media screen and (max-width: 777px) {
   .new-div {
     width: 80%;
     margin: auto;
   }
+  
+}
+
+@media screen and (max-width: 768px) {
+  .btn {
+    cursor: pointer;
+    width: fit-content;
+    font-size: 0.9rem;
+    padding: 0.6rem 0.9rem;
+    border-radius: 1.5rem;
+    font-weight: var(--font-wt-semibold);
+    transition: var(--transition);
+  }  
 }
