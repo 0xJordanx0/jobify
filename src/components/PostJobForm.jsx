@@ -181,7 +181,7 @@ const PostJobForm = () => {
             />
           </div>
 
-          <div className="mb-3 mt-4 ">
+          <div className="mb-3 mt-4">
             <button className="btn custom-button" type="submit">
               Submit Job
             </button>

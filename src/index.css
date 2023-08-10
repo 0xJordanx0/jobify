@@ -168,7 +168,6 @@ img {
 @media screen and (max-width: 768px) {
   .btn {
     cursor: pointer;
-    width: fit-content;
     font-size: 0.9rem;
     padding: 0.6rem 0.9rem;
     border-radius: 1.5rem;
@@ -177,11 +176,9 @@ img {
   }  
 }
 
-
 @media screen and (max-width: 375px) {
   .btn {
     cursor: pointer;
-    width: fit-content;
     font-size: 0.6rem;
     padding: 0.5rem 0.5rem;
     border-radius: 1.5rem;
